@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20231218/pngtree-aesthetic-background-cute-beige-design-vector-image_15518670.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .contact-member {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 30px;
+            text-align: center;
+            display: inline-block;
+            width: 30%;
+            vertical-align: top;
+            margin-bottom: 30px;
+        }
+
+        .contact-member i {
+            font-size: 60px;
+            color: #3498db;
+            margin-bottom: 20px;
+        }
+
+        .contact-member h3 {
+            font-size: 24px;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        .contact-member p {
+            font-size: 16px;
+            color: #777;
+            margin-bottom: 20px;
+        }
+
+        /* Apply blue color to Role, Email, and Phone */
+        .contact-member .role, 
+        .contact-member .email, 
+        .contact-member .phone {
+            color: #3498db;
+            font-weight: bold;
+        }
+
+        .contact-member a {
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .contact-member a:hover {
+            color: #2980b9;
+        }
+
+        .contact-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            .contact-member {
+                width: 45%;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .contact-member {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Contact Us</h1>
+        <div class="contact-container">
+            <!-- First Team Member: Kadarla Srikanth -->
+            <div class="contact-member">
+                <i class="fas fa-user-circle"></i>
+                <h3>Kadarla Srikanth</h3>
+                <p class="role">Role: Team Lead, Full Stack Developer</p>
+                <p class="email">Email: <a href="mailto:kadarla.srikanth@example.com">kadarla.srikanth@example.com</a></p>
+                <p class="phone">Phone: <a href="tel:+919876543210">+91 98765 43210</a></p>
+                <a href="https://www.linkedin.com/in/srikanth-kadarla-82097828a/" target="_blank">LinkedIn</a>
+            </div>
+            
+            <!-- Second Team Member: K. Nithin -->
+            <div class="contact-member">
+                <i class="fas fa-user-circle"></i>
+                <h3>K. Nithin</h3>
+                <p class="role">Role: Backend Developer</p>
+                <p class="email">Email: <a href="mailto:nithin@example.com">nithin@example.com</a></p>
+                <p class="phone">Phone: <a href="tel:+919876543211">+91 98765 43211</a></p>
+                <a href="https://www.linkedin.com/in/nithin" target="_blank">LinkedIn</a>
+            </div>
+            
+            <!-- Third Team Member: Y. Umesh -->
+            <div class="contact-member">
+                <i class="fas fa-user-circle"></i>
+                <h3>Y. Umesh</h3>
+                <p class="role">Role: Frontend Developer</p>
+                <p class="email">Email: <a href="mailto:umesh@example.com">umesh@example.com</a></p>
+                <p class="phone">Phone: <a href="tel:+919876543212">+91 98765 43212</a></p>
+                <a href="https://www.linkedin.com/in/umesh" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20231218/pngtree-aesthetic-background-cute-beige-design-vector-image_15518670.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .team-member {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 30px;
+            text-align: center;
+            display: inline-block;
+            width: 30%;
+            vertical-align: top;
+            margin-bottom: 30px;
+        }
+
+        .team-member i {
+            font-size: 60px;
+            color: #3498db;
+            margin-bottom: 20px;
+        }
+
+        .team-member h3 {
+            font-size: 24px;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        .team-member p {
+            font-size: 16px;
+            color: #777;
+            margin-bottom: 20px;
+        }
+
+        .team-member a {
+            text-decoration: none;
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .team-member a:hover {
+            background-color: #2980b9;
+        }
+
+        .team-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            .team-member {
+                width: 45%;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .team-member {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>About Us</h1>
+        <div class="team-container">
+            <!-- First Team Member: Kadarla Srikanth -->
+            <div class="team-member">
+                <i class="fas fa-user-circle"></i>
+                <h3>Kadarla Srikanth</h3>
+                <p>Role: Team Lead, Full Stack Developer</p>
+                <a href="https://www.linkedin.com/in/srikanth-kadarla-82097828a/" target="_blank">LinkedIn</a>
+            </div>
+            
+            <!-- Second Team Member: K. Nithin -->
+            <div class="team-member">
+                <i class="fas fa-user-circle"></i>
+                <h3>K. Nithin</h3>
+                <p>Role: Backend Developer</p>
+                <a href="https://www.linkedin.com/in/nithin" target="_blank">LinkedIn</a>
+            </div>
+            
+            <!-- Third Team Member: Y. Umesh -->
+            <div class="team-member">
+                <i class="fas fa-user-circle"></i>
+                <h3>Y. Umesh</h3>
+                <p>Role: Frontend Developer</p>
+                <a href="https://www.linkedin.com/in/umesh" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
